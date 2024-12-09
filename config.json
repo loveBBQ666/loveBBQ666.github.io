@@ -2,5 +2,6 @@
     "title":"玫瑰火的博客",
     "subTitle":"我是玫瑰火，分享好玩软件DIY的科技类博主",
     "avatarUrl":"https://avatars.githubusercontent.com/u/108907736?v=4",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    return json_encode(['code' => $code, 'message' => $message, 'data' => $data], JSON_UNESCAPED_UNICODE)
 }
